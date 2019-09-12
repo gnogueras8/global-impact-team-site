@@ -1,0 +1,11 @@
+<script src="/assets/scripts/css3-animate-it.min.js"></script>
+
+<script>
+  $( "form" ).submit(function( event ) {
+    var dateTime = new Date().toJSON();
+    var date = new Date().toDateString();
+    $('#dateTime').val(dateTime);
+    $('#date').val(date);
+  });
+</script>
+
