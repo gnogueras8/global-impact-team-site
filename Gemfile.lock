@@ -20,6 +20,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     ffi (1.11.1)
+    ffi (1.11.1-x64-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.6.3)
       addressable (~> 2.4)
@@ -62,9 +63,11 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     titleize (1.4.1)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   basic-vitamins!
@@ -72,3 +75,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-titleize
   seo-and-social-tags!
+  wdm (>= 0.1.0)
+
+BUNDLED WITH
+   2.0.2
