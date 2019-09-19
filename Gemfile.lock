@@ -63,7 +63,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     titleize (1.4.1)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -75,7 +74,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-titleize
   seo-and-social-tags!
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.0.2
