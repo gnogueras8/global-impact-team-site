@@ -8,7 +8,8 @@
   margin-top: 80px;
   height: 80vh;
   position: relative;
-  z-index:-101;
+  background: none;
+  color:white;
 }
 
 
@@ -18,5 +19,6 @@
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+  z-index: -1000;
 }
 
